@@ -250,7 +250,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/studio/people-office-hero-bg@1x.jpg);
+    url(../images/studio/people-office-hero-bg@1x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -318,7 +318,7 @@ img {
   content: '';
   display: block;
 
-  background-image: url(/images/studio/benefits/antenna.svg);
+  background-image: url(../images/studio/benefits/antenna.svg);
   background-size: 64px;
 
   background-repeat: no-repeat;
@@ -329,7 +329,7 @@ img {
   content: '';
   display: block;
 
-  background-image: url(/images/studio/benefits/clock.svg);
+  background-image: url(../images/studio/benefits/clock.svg);
   background-size: 64px;
 
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ img {
   content: '';
   display: block;
 
-  background-image: url(/images/studio/benefits/diagram.svg);
+  background-image: url(../images/studio/benefits/diagram.svg);
   background-size: 64px;
 
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ img {
   content: '';
   display: block;
 
-  background-image: url(/images/studio/benefits/astronaut.svg);
+  background-image: url(../images/studio/benefits/astronaut.svg);
   background-size: 64px;
 
   background-repeat: no-repeat;
