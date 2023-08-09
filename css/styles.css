@@ -151,6 +151,7 @@ img {
 }
 
 .menu-nav__link {
+  position: relative;
   padding: 24px 0;
   letter-spacing: 0.02em;
   color: var(--dark-color);
@@ -182,7 +183,6 @@ img {
 }
 
 .menu-nav__item {
-  position: relative;
   font-weight: 500;
   text-decoration: none;
 }
@@ -215,7 +215,7 @@ img {
   display: block;
 
   position: absolute;
-  bottom: -24px;
+  bottom: -1px;
   left: 0;
 
   width: 100%;
@@ -305,7 +305,9 @@ img {
 }
 
 .benefits__icon {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   margin-bottom: 8px;
 
@@ -313,13 +315,6 @@ img {
   border-radius: 4px;
 
   background-position: center;
-}
-
-.benefits__icon--position {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* <<< /BENEFITS >>> */
@@ -572,23 +567,21 @@ img {
   background-color: var(--accent-color);
   cursor: pointer;
 
-  transition: border 250ms var(--cubic), background-color 250ms var(--cubic);
+  color: var(--dark-color);
+
+  transition: border 250ms var(--cubic), background-color 250ms var(--cubic),
+    color 250ms var(--cubic);
 }
 
 .modal__close-btn:hover,
 .modal__close-btn:focus {
   border: none;
   background-color: var(--hover-state-color);
+  color: var(--primary-white-color);
 }
 
 .close-icon {
-  fill: var(--dark-color);
-  transition: fill 250ms var(--cubic);
-}
-
-.close-icon:hover,
-.close-icon:focus {
-  fill: var(--primary-white-color);
+  fill: currentColor;
 }
 
 /* <<< /MODAL WINDOW  >>> */
