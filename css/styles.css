@@ -251,7 +251,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/studio/people-office-hero-bg@1x.jpg);
+    url(../images/people-office-hero-bg@1x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -370,9 +370,6 @@ img {
 .team__career {
   margin-bottom: 8px;
 }
-/* .team__title {
-  margin-bottom: 8px;
-} */
 
 .team-socials {
   display: flex;
@@ -403,16 +400,11 @@ img {
 /* <<< /OUR TEAM >>> */
 
 /* <<< CUSTOMERS >>> */
-.customers {
-}
 
 .customers__list {
   display: flex;
   gap: 24px;
   justify-content: center;
-}
-
-.customers__item {
 }
 
 .customers__link {
@@ -636,15 +628,7 @@ img {
   margin-right: 24px;
 
   flex-basis: 360px;
-
-  /* transition: box-shadow 250ms var(--cubic); */
 }
-
-/* .projects__item:hover,
-.projects__item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
 
 .projects__item:nth-child(3n) {
   margin-right: 0;
