@@ -588,7 +588,7 @@ img {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -604,6 +604,25 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--accent-color);
   cursor: pointer;
+
+  transition: border-color 250ms var(--cubic),
+    background-color 250ms var(--cubic);
+}
+
+.modal__close-btn:hover,
+.modal__close-btn:focus {
+  border-color: var(--hover-state-color);
+  background-color: var(--hover-state-color);
+}
+
+.modal__close-btn-icon {
+  fill: var(--dark-color);
+  transition: fill 250ms var(--cubic);
+}
+
+.modal__close-btn-icon:hover,
+.modal__close-btn-icon:focus {
+  fill: var(--primary-white-color);
 }
 
 /* <<< /MODAL WINDOW  >>> */
