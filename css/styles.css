@@ -569,8 +569,7 @@ img {
 
   color: var(--dark-color);
 
-  transition: border 250ms var(--cubic), background-color 250ms var(--cubic),
-    color 250ms var(--cubic);
+  transition: border 250ms var(--cubic), background-color 250ms var(--cubic);
 }
 
 .modal__close-btn:hover,
@@ -582,6 +581,7 @@ img {
 
 .close-icon {
   fill: currentColor;
+  transition: fill 250ms var(--cubic);
 }
 
 /* <<< /MODAL WINDOW  >>> */
